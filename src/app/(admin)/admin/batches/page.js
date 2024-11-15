@@ -1,5 +1,5 @@
-import { BatchesTable } from "@/components/DataTable/BatchTable";
-import { BatchDialog } from "@/components/Dialogs/BatchModal";
+import { BatchesTable } from "@/components/ui/DataTables/BatchTable";
+import { BatchDialog } from "@/components/ui/Modals/BatchModal";
 
 export default function Batches() {
   return (
@@ -7,7 +7,7 @@ export default function Batches() {
       <div className="flex justify-between my-2">
 
         <h1 className="text-3xl font-bold text-center">Batches</h1>
-        <BatchDialog />
+        < BatchDialog/>
       </div>  
        <BatchesTable />
     </div>

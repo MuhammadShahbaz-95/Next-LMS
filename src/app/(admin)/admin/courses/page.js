@@ -1,6 +1,8 @@
-import { CourseTable } from "@/components/DataTable/CourseTable";
-import { CourseDialog } from "@/components/Dialogs/CourseModal";
+import { CourseTable } from "@/components/ui/DataTables/CourseTable";
+import { CourseDialog } from "@/components/ui/Modals/CourseModal";
 import { Button } from "@/components/ui/button";
+
+
 
 
 export default function Courses() {
@@ -11,7 +13,7 @@ export default function Courses() {
         <h1 className="text-3xl font-bold text-center">Courses</h1>
         <CourseDialog />
         </div>
-        <CourseTable />
+        <CourseTable/>
       </div>
     );
   }

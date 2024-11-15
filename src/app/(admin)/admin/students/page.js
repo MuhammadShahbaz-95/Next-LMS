@@ -1,5 +1,6 @@
-import { UserTrainerTable } from "@/components/DataTable/StudentTable";
-import { UserTrainerModal } from "@/components/Dialogs/StudentModal";
+import { UserTrainerTable } from "@/components/ui/DataTables/StudentTable";
+import { UserTrainerModal } from "@/components/ui/Modals/StudentsModal";
+
 
 export default function Students() {
   return (
@@ -7,7 +8,7 @@ export default function Students() {
       <div className="flex justify-between my-2">
 
         <h1 className="text-3xl font-bold text-center">Students</h1>
-      <UserTrainerModal />
+      <UserTrainerModal/>
       </div>
       <UserTrainerTable />
     </div>
